@@ -3,23 +3,297 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mulat Aschale Negessa - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      /* Custom font import for Inter */
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: blanchedalmond;
+      }
+    </style>
   </head>
-  <body>
-    <header>
-      <nav>home</nav>
+  <body class="bg-gray-100 text-gray-800 leading-relaxed antialiased">
+    <!-- Header Section -->
+    <header class="bg-white shadow-lg py-12 px-4 rounded-b-xl">
+      <div class="container mx-auto flex flex-col items-center text-center">
+        <div
+          class="relative w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl"
+        >
+          <img
+            src="/0Y5A3554 copy.jpg"
+            alt="Mulat Aschale Negessa"
+            class="object-cover w-full h-full"
+          />
+        </div>
+        <h1 class="text-4xl font-bold mt-6 text-gray-900">
+          Mulat Aschale Negessa
+        </h1>
+        <p class="text-xl text-gray-600 mt-2">BSc in Clinical Pharmacy</p>
+        <div class="flex space-x-6 mt-6">
+          <a
+            href="mailto:mulatzeethio@gmail.com"
+            class="text-blue-600 hover:text-blue-800 transition-colors duration-300"
+          >
+            <i class="fas fa-envelope text-2xl"></i>
+          </a>
+          <a
+            href="tel:+251-905-03-73-32"
+            class="text-blue-600 hover:text-blue-800 transition-colors duration-300"
+          >
+            <i class="fas fa-phone text-2xl"></i>
+          </a>
+          <!-- Add more social links here if desired -->
+        </div>
+      </div>
     </header>
-    <section>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fuga, maiores
-      nisi eius exercitationem reiciendis dolorum expedita et molestiae eum odio
-      ex vitae qui, placeat tempore. Mollitia dicta aut odit suscipit quam
-      eligendi corporis, hic consequatur vitae nulla!
-    </section>
-    <section><img src="" alt="" />g</section>
+
+    <main class="container mx-auto my-12 px-4">
+      <!-- Summary Section -->
+      <section id="about" class="bg-white p-8 rounded-xl shadow-md mb-8">
+        <h2
+          class="text-3xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-400 pb-2"
+        >
+          Summary
+        </h2>
+        <p class="text-lg text-gray-700">
+          I am a self-motivated and adaptable professional with strong
+          organizational, interpersonal, and communication skills. My academic
+          experience has equipped me to excel under strict deadlines,
+          collaborate effectively in teams, and maintain exceptional attention
+          to detail. I thrive in dynamic environments, taking ownership of
+          challenges and delivering excellence with a proactive and ethical
+          approach. A quick learner with a flexible mindset, I build strong
+          relationships across all levels and contribute meaningfully to
+          organizational goals. Confident in my ability to make a positive
+          impact, I am eager to bring my dedication and skills to your
+          institution and achieve shared success.
+        </p>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="bg-white p-8 rounded-xl shadow-md mb-8">
+        <h2
+          class="text-3xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-400 pb-2"
+        >
+          Education
+        </h2>
+        <div class="bg-blue-50 p-6 rounded-lg shadow-inner">
+          <h3 class="text-2xl font-medium text-blue-700">
+            Bachelor's Degree in Clinical Pharmacy
+          </h3>
+          <p class="text-lg text-gray-700 mt-1">
+            Bahir Dar University, 2019-2024
+          </p>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section
+        id="certifications"
+        class="bg-white p-8 rounded-xl shadow-md mb-8"
+      >
+        <h2
+          class="text-3xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-400 pb-2"
+        >
+          Certifications
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Best Performance Award -->
+          <div
+            class="bg-gray-50 p-6 rounded-lg shadow-sm border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-medium text-blue-600">
+              Best Performance Award
+            </h3>
+            <p class="text-gray-700 mt-2">
+              Bahir Dar University, College of Medicine and Health Sciences
+            </p>
+            <p class="text-sm text-gray-600 mt-1">
+              Awarded for achieving the third-highest cumulative grade of 3.87
+              among all graduates of Pharmacy.
+            </p>
+            <!-- Optional: Add an image of the certificate if available and you want to display it -->
+            <img
+              src="/IMG_20240509_104644_756.jpg"
+              alt="Best Performance Award"
+              class="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+            />
+          </div>
+          <!-- Master Class for Teaching Online -->
+          <div
+            class="bg-gray-50 p-6 rounded-lg shadow-sm border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-medium text-blue-600">
+              Master Class for Teaching Online (Open edX)
+            </h3>
+            <p class="text-gray-700 mt-2">EdPlus | ASU Online</p>
+            <p class="text-sm text-gray-600 mt-1">Awarded on March 4, 2025.</p>
+            <img
+              src="/MAster online.png"
+              alt="ASU Online Teaching Certificate Placeholder"
+              class="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+              onerror="this.onerror=null;this.src='https://placehold.co/400x200/cccccc/333333?text=ASU+Certificate';"
+            />
+          </div>
+          <!-- 120-Hour International TEFL Course -->
+          <div
+            class="bg-gray-50 p-6 rounded-lg shadow-sm border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-medium text-blue-600">
+              120-Hour International TEFL Course
+            </h3>
+            <p class="text-gray-700 mt-2">
+              TEFL Professional Institute - TeacherRecord
+            </p>
+            <p class="text-sm text-gray-600 mt-1">
+              Completed in April 2025 with all modules completed with
+              Distinction.
+            </p>
+            <img
+              src="/ENglish.png"
+              alt="TEFL Certificate Placeholder"
+              class="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+              onerror="this.onerror=null;this.src='https://placehold.co/400x200/cccccc/333333?text=TEFL+Certificate';"
+            />
+          </div>
+          <!-- IPLS Training Certificate -->
+          <div
+            class="bg-gray-50 p-6 rounded-lg shadow-sm border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-medium text-blue-600">
+              Integrated Pharmaceuticals Logistics System (IPLS) Training
+            </h3>
+            <p class="text-gray-700 mt-2">
+              Ethiopian Pharmaceuticals Supply Agency (EPSA) in collaboration
+              with JSI/AIDSFree project
+            </p>
+            <p class="text-sm text-gray-600 mt-1">
+              Completed on March 5, 2025.
+            </p>
+            <img
+              src="/IPLS.png"
+              alt="IPLS Training Certificate Placeholder"
+              class="mt-4 rounded-lg shadow-md w-full h-auto object-cover"
+              onerror="this.onerror=null;this.src='https://placehold.co/400x200/cccccc/333333?text=IPLS+Certificate';"
+            />
+          </div>
+          <!-- Other certifications from Mulat Aschale (1).pdf -->
+          <div
+            class="bg-gray-50 p-6 rounded-lg shadow-sm border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-medium text-blue-600">
+              Certificate of Participation
+            </h3>
+            <p class="text-gray-700 mt-2">
+              US Embassy for completing STARS Program
+            </p>
+          </div>
+          <div
+            class="bg-gray-50 p-6 rounded-lg shadow-sm border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-medium text-blue-600">
+              Certificate of High Score Achievement
+            </h3>
+            <p class="text-gray-700 mt-2">
+              Federal Democratic Republic of Ethiopia (Grade 12)
+            </p>
+          </div>
+          <div
+            class="bg-gray-50 p-6 rounded-lg shadow-sm border-l-4 border-blue-500"
+          >
+            <h3 class="text-xl font-medium text-blue-600">
+              Certificate of Summer Charity Program
+            </h3>
+            <p class="text-gray-700 mt-2">
+              Ethiopian Pharmaceutical Students Association
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Professional Experience Section -->
+      <section id="experience" class="bg-white p-8 rounded-xl shadow-md mb-8">
+        <h2
+          class="text-3xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-400 pb-2"
+        >
+          Professional Experience
+        </h2>
+        <ul class="list-disc list-inside space-y-2 text-lg text-gray-700">
+          <li>
+            Practical experience for 10 months at Bahir Dar University, Tibebe
+            Gion Specialized Hospital, and Bahir Dar Community Pharmacies.
+          </li>
+          <li>
+            University lecturer, which demands strong organizational,
+            interpersonal, and communication skills, allowing me to combine my
+            passion for education with my dedication to fostering academic
+            excellence.
+          </li>
+          <li>
+            Team Training Practice/TTP for 1 month at Bahir Dar students'
+            representative for three years, smoothly interacting & communicating
+            with all the class students and concerned coordinating & instructing
+            staffs in managing different issues.
+          </li>
+          <li>
+            Pharmaceutical Wholesale and Promotion and at Bahir Dar, Ethiopian
+            Pharmaceutical Supply Service for 02 weeks.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Skills & Languages Section -->
+      <section id="skills" class="bg-white p-8 rounded-xl shadow-md mb-8">
+        <h2
+          class="text-3xl font-semibold text-gray-800 mb-4 border-b-2 border-blue-400 pb-2"
+        >
+          Skills & Languages
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-2xl font-medium text-gray-800 mb-3">Skills</h3>
+            <ul class="list-disc list-inside space-y-2 text-lg text-gray-700">
+              <li>Flexibility, adaptability in dynamic environments</li>
+              <li>Conflict Management</li>
+              <li>Managing, leading and problem Solving</li>
+              <li>High level of commitment</li>
+              <li>Effective communication & negotiation</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-2xl font-medium text-gray-800 mb-3">Languages</h3>
+            <ul class="list-disc list-inside space-y-2 text-lg text-gray-700">
+              <li>English (Fluent)</li>
+              <li>Amaharic (Native)</li>
+              <li>Afaan Oromo (Excellent)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-8 text-center rounded-t-xl">
+      <div class="container mx-auto">
+        <p>
+          &copy; <span id="year"></span> Mulat Aschale Negessa. All Rights
+          Reserved.
+        </p>
+        <p class="text-sm mt-2">Assosa, Benishangul Gumz, Ethiopia</p>
+      </div>
+    </footer>
+
+    <script>
+      // script.js content directly here for simplicity
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
-  <footer>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos
-    aspernatur tenetur. Optio eveniet repudiandae error ipsam. Enim beatae unde
-    placeat eius.
-  </footer>
 </html>
